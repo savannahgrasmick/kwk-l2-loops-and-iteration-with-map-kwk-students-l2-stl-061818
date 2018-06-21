@@ -12,8 +12,13 @@ function lowerCaseStudentNames(lowerCase) {
 
 
 function nameToAttributes(fullName) {
-  const first = fullName.split(" ")[0];
-  const last = fullName.split(" ")[1];
-  return fullName.map(first,last);
+  return fullName.map(function (celebrity)
+  {
+    const first = fullName.split(" ")[0];
+    const last = fullName.split(" ")[1];
+  
+    return {firstName: first, lastName: last}
+  }
+
 }
 
