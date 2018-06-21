@@ -1,7 +1,11 @@
 // Code your solution in this file.
 
-let students = ['Mary', 'Joan', 'Eva', 'Frida', 'Taylor', 'Agnes']
+//let students = ['Mary', 'Joan', 'Eva', 'Frida', 'Taylor', 'Agnes']
 
-function lowerCaseStudentNames(students) {
+function other(students) {
+  return students.toLowerCase();
+}
 
+function lowerCaseStudentNames(lowerCase) {
+  return lowerCase.map(other);
 }
