@@ -1,3 +1,5 @@
 // Code your solution in this file.
 
-lowerCaseStudentNames()
+function lowerCaseStudentNames() {
+  let studentNames = []
+}
