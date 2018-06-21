@@ -1,6 +1,6 @@
 // Code your solution in this file.
 
 function lowerCaseStudentNames() {
-  let students = ['Adele', 'Beyoncé', 'Lady', 'Madonna', 'Rihanna', 'Taylor']
+  let students = ['Mary', 'Joan', 'Eva', 'Frida', 'Taylor', 'Agnes']
   return students.toLowerCase();
 }
