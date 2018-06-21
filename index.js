@@ -12,7 +12,7 @@ function lowerCaseStudentNames(lowerCase) {
 
 
 function nameToAttributes(fullName) {
-  return fullName.map(function (celebrity)
+  return fullName.map(function (celebrity))
   {
     const first = fullName.split(" ")[0];
     const last = fullName.split(" ")[1];
