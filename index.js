@@ -15,3 +15,5 @@ function nameToAttributes(fullName) {
   const first = fullName.split(" ")[0];
   const last = fullName.split(" ")[1];
 }
+
+nameToAttributes();
