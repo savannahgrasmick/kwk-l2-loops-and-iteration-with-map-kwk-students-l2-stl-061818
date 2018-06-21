@@ -9,3 +9,8 @@ function other(students) {
 function lowerCaseStudentNames(lowerCase) {
   return lowerCase.map(other);
 }
+
+
+function nameToAttributes() {
+  
+}
