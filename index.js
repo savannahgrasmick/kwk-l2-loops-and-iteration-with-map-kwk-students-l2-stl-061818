@@ -11,6 +11,6 @@ function lowerCaseStudentNames(lowerCase) {
 }
 
 
-function nameToAttributes(firstNames, lastName) {
-  return firstName + lastName.split();
+function nameToAttributes(fullName) {
+  return fullName.split();
 }
