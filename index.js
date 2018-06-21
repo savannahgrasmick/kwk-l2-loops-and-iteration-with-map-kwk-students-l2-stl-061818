@@ -2,7 +2,7 @@
 
 let students = ['Mary', 'Joan', 'Eva', 'Frida', 'Taylor', 'Agnes']
 
-function lowerCaseStudentNames() {
+function lowerCaseStudentNames(students) {
   
   return students.toLowerCase();
 }
