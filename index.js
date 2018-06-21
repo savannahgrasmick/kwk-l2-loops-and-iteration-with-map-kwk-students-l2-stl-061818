@@ -15,8 +15,8 @@ function nameToAttributes(fullName) {
   return fullName.map(
     function (celebrity)
     {
-      const first = fullName.split(" ")[0];
-      const last = fullName.split(" ")[1];
+      const first =celebrity.split(" ")[0];
+      const last = celebrity.split(" ")[1];
     
       return {firstName: first, lastName: last}
     }
