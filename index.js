@@ -12,5 +12,5 @@ function lowerCaseStudentNames(lowerCase) {
 
 
 function nameToAttributes(firstNames, lastName) {
-  return firstName + lastName;
+  return firstName + lastName();
 }
