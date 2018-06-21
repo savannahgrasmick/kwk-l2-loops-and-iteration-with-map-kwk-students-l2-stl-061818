@@ -12,5 +12,5 @@ function lowerCaseStudentNames(lowerCase) {
 
 
 function nameToAttributes(fullName) {
-  return fullName.split();
+  return fullName.split(" ");
 }
