@@ -24,3 +24,9 @@ function nameToAttributes(fullName) {
 
 }
 
+
+function attributesToPhrase() {
+
+  return 
+}
+
